@@ -1,0 +1,6 @@
+@Memento.Api_HostAddress = http://localhost:5077
+
+GET {{Memento.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

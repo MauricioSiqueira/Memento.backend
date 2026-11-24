@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2DFA7EC6-5F11-4BFA-A735-C187DDA46963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Domain", "src\Memento.Domain\Memento.Domain.csproj", "{F77F6DAE-567D-404F-8267-E64D77B26592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Application", "src\Memento.Application\Memento.Application.csproj", "{FA103033-BB2F-4B81-8447-189DC0268256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Infrastructure", "src\Memento.Infrastructure\Memento.Infrastructure.csproj", "{7B84858E-296D-4EE1-817A-47D11D85965B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Api", "src\Memento.Api\Memento.Api.csproj", "{2B7562A7-FF6B-441E-AC0C-E448F5E882D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81D3A7BC-D630-4AD7-A084-FBBA3339DE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Tests", "tests\Memento.Tests\Memento.Tests.csproj", "{87014FFD-7F62-4C06-A61D-662F44D0B640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F77F6DAE-567D-404F-8267-E64D77B26592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77F6DAE-567D-404F-8267-E64D77B26592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77F6DAE-567D-404F-8267-E64D77B26592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77F6DAE-567D-404F-8267-E64D77B26592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA103033-BB2F-4B81-8447-189DC0268256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA103033-BB2F-4B81-8447-189DC0268256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA103033-BB2F-4B81-8447-189DC0268256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA103033-BB2F-4B81-8447-189DC0268256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B84858E-296D-4EE1-817A-47D11D85965B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B84858E-296D-4EE1-817A-47D11D85965B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B84858E-296D-4EE1-817A-47D11D85965B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B84858E-296D-4EE1-817A-47D11D85965B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7562A7-FF6B-441E-AC0C-E448F5E882D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7562A7-FF6B-441E-AC0C-E448F5E882D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7562A7-FF6B-441E-AC0C-E448F5E882D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7562A7-FF6B-441E-AC0C-E448F5E882D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87014FFD-7F62-4C06-A61D-662F44D0B640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87014FFD-7F62-4C06-A61D-662F44D0B640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87014FFD-7F62-4C06-A61D-662F44D0B640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87014FFD-7F62-4C06-A61D-662F44D0B640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F77F6DAE-567D-404F-8267-E64D77B26592} = {2DFA7EC6-5F11-4BFA-A735-C187DDA46963}
+		{FA103033-BB2F-4B81-8447-189DC0268256} = {2DFA7EC6-5F11-4BFA-A735-C187DDA46963}
+		{7B84858E-296D-4EE1-817A-47D11D85965B} = {2DFA7EC6-5F11-4BFA-A735-C187DDA46963}
+		{2B7562A7-FF6B-441E-AC0C-E448F5E882D4} = {2DFA7EC6-5F11-4BFA-A735-C187DDA46963}
+		{87014FFD-7F62-4C06-A61D-662F44D0B640} = {81D3A7BC-D630-4AD7-A084-FBBA3339DE32}
+	EndGlobalSection
+EndGlobal
